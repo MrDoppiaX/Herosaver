@@ -1,6 +1,6 @@
 /* global Blob */
 
-import { STLExporter } from 'three/examples/jsm/exporters/STLExporter.js'
+import { STLExporter } from './STLExporter.js'
 import { OBJExporter } from 'three/examples/jsm/exporters/OBJExporter.js'
 import { saveAs } from 'file-saver'
 import { character, getName, process } from './utils'
